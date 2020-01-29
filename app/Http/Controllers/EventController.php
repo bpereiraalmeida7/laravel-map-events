@@ -26,7 +26,16 @@ class EventController extends Controller
     public function timeline(Request $request)
     {
         $json_data = json_decode(file_get_contents('https://storage.googleapis.com/dito-questions/events.json'));
-        
-        return ($json_data->events);
+        /* foreach ($json_data->events as $value){
+            $json_formatado = [
+                "timeline" => [ 
+                    "timestamp" => $value->timestamp,
+                    "key"       => $value->transaction_id
+                ],
+            ]; 
+        }
+        return ($json_formatado); */
+
+        return ($json_data);
     }
 }
