@@ -32,3 +32,6 @@ Para testar o POST de eventos, utilize esse payload:
     "event": "nome_evento"
   }
 
+### Arquivos onde se encontram as funções: 
+>app/Http/Controllers/EventController.php
+
