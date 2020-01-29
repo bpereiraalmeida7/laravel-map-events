@@ -16,12 +16,14 @@ Ferramenta para mapeamento de eventos de busca (AUTOCOMPLETE), POST de eventos d
 
 ## Observações Importantes:
 
-- Para testar os endpoints, você pode utilizar ferramentas específicas (Postaman e etc).
+- Para testar os endpoints, você pode utilizar ferramentas específicas (Postman e etc).
 
 Rotas:
 
 > GET: /search/{param} 
+
 > POST: /postEvent 
+
 > GET: /viewTimeline
 
 Para testar o POST de eventos, utilize esse payload:
@@ -29,3 +31,4 @@ Para testar o POST de eventos, utilize esse payload:
 > {
     "event": "nome_evento"
   }
+
