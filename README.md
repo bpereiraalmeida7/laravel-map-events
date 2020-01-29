@@ -20,5 +20,7 @@ Ferramenta para mapeamento de eventos de busca (AUTOCOMPLETE), POST de eventos d
 Rotas:
 
 > GET: /search/{param} 
+
 > POST: /postEvent 
-> GET: /viewTimeline
+
+> GET: /viewTimeline 
