@@ -15,7 +15,7 @@ Ferramenta para mapeamento de eventos de busca (AUTOCOMPLETE), POST de eventos d
 
 ## Observações Importantes:
 
-- Para testar os endpoints, você pode utilizar ferramentas específicas (Postaman e etc).
+- Para testar os endpoints, você pode utilizar ferramentas específicas (Postman e etc).
 
 Rotas:
 
