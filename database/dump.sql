@@ -8,5 +8,5 @@ CREATE TABLE `event` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8mb4;
 
-
+INSERT INTO (event) VALUES ('login'), ('buy'), ('rent');
 
